@@ -8,7 +8,9 @@ public class Exercise1 {
         // number input
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter 3 numbers: ");
-        double a = scanner.nextDouble(), b = scanner.nextDouble(), c = scanner.nextDouble();
+        double a = scanner.nextDouble();
+        double b = scanner.nextDouble();
+        double c = scanner.nextDouble();
 
         // discriminant calculation and result variable's initializations for further use
         double discriminant = ((b*b) - 4 * a * c);
